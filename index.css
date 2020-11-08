@@ -58,6 +58,10 @@ h1, h2, h3 {
     padding: 40px 25px;
 }
 
+/* .experience-row {
+    margin: 70px 0;
+} */
+
 #header {
     /* height: 10vh; */
     background-color: #fff;
@@ -116,6 +120,10 @@ h1, h2, h3 {
     color: #2f55d4;
 }
 
+/* .portfolio-row {
+    margin: 70px 0;
+} */
+
 .profile-img-cont {
     display: flex;
     justify-content: flex-end;
@@ -133,10 +141,46 @@ h1, h2, h3 {
 }
 
 .row-one {
-    height: 80vh;
+    height:80vh;
     align-items: center;
 }
 
 .row-port {
     background-color: #f8f9fc;
 }
+
+.skills-row {
+    padding-left: 12%;
+}
+
+.skills-cont {
+    display: flex;
+    align-items: center;
+}
+
+.skills {
+    height: 64px;
+    width: 64px;
+    border: 1px solid #e9ecef;
+    border-radius: 90%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f55d4;
+    color: white;
+    margin-right: 20px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+/* How to create boxes over skills on hover: */
+
+/* text in dev visibility hidden */
+/* text on hover visibility visible */
+  
+/* also put the finger pionter effect on the skills (icons) */
