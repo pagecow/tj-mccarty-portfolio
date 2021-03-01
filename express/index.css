@@ -36,6 +36,10 @@ h1, h2, h3 {
     border-radius: 6px;
 }
 
+.rounded-10 {
+    border-radius: 10px;
+}
+
 /* Other CSS */
 
 /* Header */
@@ -196,6 +200,10 @@ h1, h2, h3 {
     font-size: 40px;
     margin: 20px 10px 35px 0;
     color: #2f55d4;
+}
+
+.mtb-20 {
+    margin: 20px 0;
 }
 
 .profile-img-cont {
